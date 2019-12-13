@@ -1,4 +1,8 @@
-class App extends React.Component {
+import React, {Component} from 'react'
+import Form from '../Form/form.jsx'
+import './app.scss'
+
+export default class App extends Component {
     
     constructor(props) {
         super(props);
@@ -6,12 +10,8 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Ciao</h1>
-            </div>
+            <Form />
         );
     }
 
 }
-
-export default App;

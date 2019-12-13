@@ -1,0 +1,44 @@
+$signup-form-control-width: 493;
+
+.signup {
+  h1 {
+    color: #25396e;
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+
+.signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: ($signup-form-control-width * 2) + 44 + px;
+  margin: 0 auto;
+
+  .form-group {
+    width: $signup-form-control-width + px;
+    margin-bottom: 45px;
+
+    label {
+      display: block;
+      margin-bottom: 20px;
+
+      color: #000;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 30px 37px;
+    box-sizing: border-box;
+
+    border: 1px solid #000;
+    border-radius: 42.5px;
+
+    font-size: 2rem;
+  }
+}
